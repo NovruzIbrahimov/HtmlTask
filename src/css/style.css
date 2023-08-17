@@ -1,0 +1,202 @@
+body{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+/* Header baslangic */
+
+header{
+    background-color: black;
+    color: white;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.website-header{
+    padding: 20px;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.website-header img{
+    width: 55px;
+    height: 58px;
+    margin: 0 30px;
+}
+
+.website-header h1{
+    margin: auto 0;
+}
+
+.social-icons{
+    text-align: right;
+    flex-grow: 1;
+}
+
+.social-icons i{
+    margin: 0 7px;
+    cursor: pointer;
+}
+
+.social-icons i:hover{
+    color: brown;
+}
+
+nav{
+    background-color: black;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+nav ul{
+    margin: 20px 0 0 0;
+}
+
+.navbar-nav li{
+    padding: 10px;
+}
+
+.navbar-nav li a{
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.navbar-nav li a:hover{
+    color: brown;
+}
+
+.breaking-news-section{
+    padding: 0 30px 0 60px;
+    display: flex;
+    height: 30px;
+}
+
+#brtext{
+    width: 200px;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: brown;
+    font-weight: 600;
+}
+
+.breaking-news{
+    padding: 0 30px;
+    color: white;
+    font-weight: 800;
+    display: inline-block;
+    margin: auto 0;
+}
+
+.breaking-news:hover{
+    color: brown;
+    text-decoration: none;
+}
+
+.brtime{
+    display: inline-block;
+    color: darkgrey;
+    padding: 0 10px;
+    font-size: 12px;
+}
+
+/* Header son*/
+
+/* Section baslangic */
+
+.home-section{
+    z-index: -1;
+}
+
+.home-section .container {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 100px;
+}
+
+
+.card{
+    margin: 0 20px;
+}
+
+.home-section,
+.world-section,
+.politics-section,
+.sport-section,
+.contacts-section{
+    height: 115vh;
+    display: flex;
+    align-items: center;
+}
+
+.world-section,
+.politics-section,
+.sport-section,
+ h1 p{
+    color: white;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.contacts-section h1{
+    color: white;
+}
+
+.contacts-section p{
+    color: white;
+    font-weight: 800;
+}
+
+.home-section{
+    background: darkgrey;
+}
+
+.world-section{
+    background: aquamarine;
+}
+
+.politics-section{
+    background: darkgrey;
+}
+
+.sport-section{
+    background: aquamarine;
+}
+
+.contacts-section{
+    background: darkgrey;
+}
+
+.map iframe{
+    width: 100%;
+    height: 400px;
+}
+
+/* Section son */
+
+/* Footer baslangic */
+
+footer {
+    text-align: center;
+    background-color: #000000;
+}
+
+.fter {
+    height: 130px;
+    align-items: center;
+}
+
+.copyright p {
+    font-size: 20px;
+    font-weight: 800;
+    color: #fff;
+    letter-spacing: 1px;
+    padding-top: 40px;
+}
+
+/* Footer son */
